@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+// 匯入 components
+import Index from "./components/Index";
+import Event from "./components/Event"
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
+
+// reset CSS
+import './style/reset.css'
+import './style/font.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <>
+        <Header />
+        <ScrollToTop>
+          <Switch>
+            <Route exact path="/event">
+              <Event />
+            </Route>
+            <Route exact path="/">
+              <Index />
+            </Route>
+          </Switch>
+        </ScrollToTop>
+        <Footer />
+      </>
+    </Router>
   );
 }
 

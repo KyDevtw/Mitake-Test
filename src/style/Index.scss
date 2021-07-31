@@ -1,0 +1,311 @@
+// !!! Hero Section
+.hero-section{
+        background-color: rgb(230, 230, 230);
+        padding: 20px 0;
+        img{
+            width: 100%;
+        }
+        
+}
+
+.row{
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// .second-event{
+//     display: none;
+// }
+
+// !!! Select event class
+.event-class{
+    li{
+        display: block;
+        width: 155px;
+        height: 235px;
+        background-image: url(https://cloud.culture.tw/frontsite/2014/images/index/index_4icon.png);
+        background-repeat: no-repeat;
+    }
+    .class-link-1{
+        background-position: left top;
+    }
+    .class-link-2{
+        background-position: -155px top;
+    }
+    .class-link-3{
+        background-position: -310px top;
+    }
+    .class-link-4{
+        background-position: -465px top;
+    }
+}
+
+// !!! Event Chart and Recommanded
+.event-chart{
+    h4{
+        font-weight: 500;
+        font-size: 1.8rem;
+        border-bottom: 3px solid black;
+        padding-bottom: 15px;
+    }
+     .recom-card{
+            border-bottom: 1px solid #ececec; 
+            h6{
+                width: 80px;
+                background-color: #eb0000;
+                padding: 5px 20px;
+                text-align: center;
+                line-height: 1rem;
+                font-size: 1rem;
+                color: white;
+            }
+            h5{
+                margin: 20px 0px;
+                font-size: 1.5rem;
+                font-weight: 500;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                white-space:nowrap;
+
+            }
+            span{
+                display: block;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                white-space:nowrap;
+            }
+    }
+    a > div{
+        width: 150px;
+        background-color: #575757;
+        line-height: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        color: white;
+        padding: 8px 20px;
+    }
+
+}
+
+.chart-card{
+    li{
+        display: block;
+        font-size: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        white-space:nowrap;
+        border-bottom: 1px solid #ececec; 
+        padding: 15px 0px 14px 40px; 
+    }
+    span{
+        margin-right: 20px;
+    }
+   
+}
+// ? Chart Numbers
+.chart1::before{
+    content: "1";
+    position: absolute;
+    top: 59px;
+    left: 15px;
+    display: inline;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #c50f65;
+}
+.chart2::before{
+    content: "2";
+    position: absolute;
+    top: 104px;
+    left: 15px;
+    display: inline;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #c50f65;
+}
+.chart3::before{
+    content: "3";
+    position: absolute;
+    top: 150px;
+    left: 15px;
+    display: inline;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #c50f65;
+}
+.chart4::before{
+    content: "4";
+    position: absolute;
+    top: 196px;
+    left: 15px;
+    display: inline;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #c50f65;
+}
+.chart5::before{
+    content: "5";
+    position: absolute;
+    top: 243px;
+    left: 15px;
+    display: inline;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #c50f65;
+}
+.chart6::before{
+    content: "6";
+    position: absolute;
+    top: 289px;
+    left: 15px;
+    display: inline;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #c50f65;
+}
+.chart7::before{
+    content: "7";
+    position: absolute;
+    top: 334px;
+    left: 15px;
+    display: inline;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #c50f65;
+}
+.chart8::before{
+    content: "8";
+    position: absolute;
+    top: 380px;
+    left: 15px;
+    display: inline;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #c50f65;
+}
+.chart9::before{
+    content: "9";
+    position: absolute;
+    top: 426px;
+    left: 15px;
+    display: inline;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #c50f65;
+}
+.chart10::before{
+    content: "10";
+    position: absolute;
+    top: 472px;
+    left: 15px;
+    display: inline;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #c50f65;
+}
+
+// !!!Topic Recommand
+.top-recomd{
+        background-color: rgb(230, 230, 230);
+        padding: 20px 0;
+        h4{
+            font-weight: 500;
+            font-size: 1.8rem;
+        }
+}
+
+.topic-card1{
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .col-lg-4{
+        background-color: rgb(197, 15, 101);
+        padding: 20px;
+        font-size: 1.2rem;
+        color: white;
+        line-height: 2rem;
+        div{
+            font-weight: 500;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            line-height: 3rem;
+        }
+    }
+}
+
+.topic-card2{
+    img{
+        width: 100%;
+        height: 316px;
+        object-fit: cover;
+    }
+    h3 {
+        width: 100%;
+        padding: 15px 20px 15px 20px;
+        box-sizing: padding-box;
+        background-color: #b95b00;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: white;
+    }
+}
+
+// !!!Street Performers
+.street-perform{
+    h4{
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+    .performer{
+        border: 1px solid #ececec;
+        img{
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        h6{
+            font-weight: 500;
+            font-size: 1.6rem;
+            text-align: center;
+            padding: 10px;
+        }
+    }
+}
+
+@media screen and (max-width:576px) {
+    .recom-card .col-5{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:993px) {
+    .hero-section{
+        .col-4{
+            display: none;
+        }
+    }
+
+}

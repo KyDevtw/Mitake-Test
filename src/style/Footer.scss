@@ -1,0 +1,35 @@
+.footer{
+    background-color: #333;
+    .row{
+        max-width: 1020px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        
+    }
+    h6{
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: white;
+        padding-top: 10px;
+    }
+}
+
+// !!! Basic RWD for Footer
+@media screen and (max-width:575px) {
+    .footer{
+        h6{
+            margin-top: 20px;
+            text-align: center;
+        }
+        .col-12{
+            margin-top: 20px;
+            img{
+                padding-left: 38px;
+            }
+        }
+    }
+
+}

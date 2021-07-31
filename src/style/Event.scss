@@ -1,0 +1,32 @@
+.event-filter{
+    background-color: rgb(230, 230, 230);
+    span, .reset-btn{
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-right: 10px;
+    }
+    select{
+        font-size: 1.2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        &:focus{
+            outline: none !important;
+            border: .5px solid #000000;
+        }
+    }
+}
+
+.card{
+    .card-title{
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        white-space:nowrap;
+    }
+    .card-text{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+}

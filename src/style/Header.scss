@@ -1,0 +1,88 @@
+// !!! header Logo and icon
+.header-area {
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    div {
+        justify-content:space-between
+    }
+}
+
+.header-logo {
+    background-image: url(https://cloud.culture.tw/frontsite/2014/images/logo_iCulture.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 300px;
+    height: 60px;
+    display: block;
+    margin: 0px;
+}
+
+.header-icons {
+    margin-left: auto;
+    padding-top: 10px;
+    li{
+        margin: 3px;
+        float: right;
+        background-repeat: no-repeat;
+        height: 30px;
+        width: 30px;
+        display: block;
+        padding: 0px 2px;
+    }
+    .header-icons1 {
+        background-image: url(https://cloud.culture.tw/frontsite/2014/images/icon/but_icon.png);
+        background-position: -45px -55px;
+    }
+    .header-icons2 {
+    background-image: url(https://cloud.culture.tw/frontsite/2014/images/icon/but_icon.png);
+    background-position: -5px -55px;
+    }
+    .header-icons3 {
+        background-image: url(https://cloud.culture.tw/frontsite/2014/images/icon/but_icon.png);
+        background-position: -85px -55px;
+    }
+    .header-icons4 {
+        background-image: url(https://cloud.culture.tw/frontsite/2014/images/icon/but_icon.png);
+        background-position: -245px -55px;
+    }
+}
+
+// Red Deco-line for header
+.header-deco{
+    border-bottom: 3px solid #cc0000;
+}
+
+.navbar{
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+}
+
+
+// !!! Replace react bootstrap Style
+#basic-nav-dropdown{
+    color: black;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.navbar-toggler{
+    border: 0px;
+}
+
+.navbar-light {
+    font-weight: 500;
+}
+
+// !!! Basic RWD for Header
+@media screen and (max-width:445px) {
+    .header-icons{
+        display: none;
+    }
+
+}
